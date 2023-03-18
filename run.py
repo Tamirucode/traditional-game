@@ -47,5 +47,13 @@ class RockPaperScissors:
         else:
             self.losses += 1
             print("you lose!")
+        
+    def display_score(self):
+        """
+        it shows the player score against the computer.
+        has no return, it prints the player result
+        """
+        print(f"You have {self.wins} wins, {self.losses} losses, and "
+              f"{self.ties} ties.")
     
     
