@@ -22,4 +22,12 @@ class RockPaperScissors:
         self.ties = 0
         self.alternatives = {'rock': 0, 'paper': 1, 'scissors': 2}
     
-        
+    def random_choice(self):
+        """
+        The computer choice from list of self.alternatives.
+        return the dictionary values of rock= 0 , paper = 1
+        and scissors = 2.
+        """
+
+        return random.choice(list(self.alternatives.values()))
+    
