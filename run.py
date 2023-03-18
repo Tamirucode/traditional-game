@@ -1,3 +1,9 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+# Import needed data libraries--
+import random
+print("______________________________________________\n")
+print("Welcome to Rock Paper Scissors Game!!\n ")
+print("----------------------------------------------\n")
+# ---using the code below just to know who is playing with the computer.
+x = input("Please enter your name: \n")
+print("----------------------------------------------\n")
+player = x
