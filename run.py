@@ -14,7 +14,12 @@ class RockPaperScissors:
     """
 
     def __init__(self):
-    """
+        """
         Initialize the variables for the class
         """
+        self.wins = 0
+        self.losses = 0
+        self.ties = 0
+        self.alternatives = {'rock': 0, 'paper': 1, 'scissors': 2}
+    
         
