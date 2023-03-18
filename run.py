@@ -56,4 +56,21 @@ class RockPaperScissors:
         print(f"You have {self.wins} wins, {self.losses} losses, and "
               f"{self.ties} ties.")
     
+    def run_game(self):
+        """
+        player Plays a round of Rock-Paper-Scissors with the computer.
+         function has no return
+        """
+        while True:
+            # try statements created to ensure valid input entered.
+            try:
+    # using only number input because much easier the user to play the game
+                player = int(input('Please enter your choice as a number\n'
+                                   '(rock = 0, paper = 1, scissors = 2):\n'))
+                if 2 >= player >= 0:
+                    break
+            except ValueError:
+                print('You provided not a number, please enter valid number!')
+            else:
+                print('Number should be between 0 to 2, please try again!')
     
