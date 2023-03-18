@@ -30,4 +30,22 @@ class RockPaperScissors:
         """
 
         return random.choice(list(self.alternatives.values()))
+
+    def result_check(self, player, computer):
+        """
+        just print the player score by judging the game win,loss and tie
+        has no return
+        """
+        # using conditional statement to implement the logic
+
+        if player == computer:
+            self.ties += 1
+            print("The game is a tie! no one win!")
+        elif (player - computer) % 3 == 1:
+            self.wins += 1
+            print("You win!")
+        else:
+            self.losses += 1
+            print("you lose!")
+    
     
