@@ -7,3 +7,14 @@ print("----------------------------------------------\n")
 x = input("Please enter your name: \n")
 print("----------------------------------------------\n")
 player = x
+
+class RockPaperScissors:
+    """
+    Class to handle an instance of a Rock-Paper-Scissors game
+    """
+
+    def __init__(self):
+    """
+        Initialize the variables for the class
+        """
+        
