@@ -1,4 +1,5 @@
 # Import needed data libraries--
+
 import random
 print("______________________________________________\n")
 print("Welcome to Rock Paper Scissors Game!!\n ")
@@ -7,6 +8,7 @@ print("----------------------------------------------\n")
 x = input("Please enter your name: \n")
 print("----------------------------------------------\n")
 player = x
+
 
 class RockPaperScissors:
     """
@@ -73,10 +75,35 @@ class RockPaperScissors:
                 print('You provided not a number, please enter valid number!')
             else:
                 print('Number should be between 0 to 2, please try again!')
- # using python if statement to run the code inside it
+        computer = self.random_choice()
+        print(f"{x} have chosen: {player}")
+        print(f"The Computer have chosen: {computer}")
+# using self.result_check() to see whether a player score wins,losses,and ties
+        self.result_check(player, computer)
+
+ 
+ 
+
+# using python if statement to run the code inside it
 if __name__ == "__main__":
     play_game = RockPaperScissors()
     # the while loop is created the running round game
     while True:
         play_game.run_game()
         play_game.display_score()   
+
+        while True:
+           # check the player input is valid when  exit and play again the game 
+            continue_playing = input("\n"
+                "Would you like to continue playing the game?y/n \n")
+            if continue_playing.lower() == "y":
+                print("You have decided to continue playing the game.")
+                break
+            elif continue_playing.lower() == "n":
+                print("Now the game is over...")
+                print("Thanks for playing")
+                print("----------------------------------------------")
+# using exit function because couldn't do that by break key word
+                exit()
+            else:
+                print("Invalid input, Please enter y or n !\n")
