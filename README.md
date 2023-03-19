@@ -25,7 +25,7 @@ The winner is
           - The player can't see what the computer intended to choose ,
        
        - The Game type and Player Name    
-	  - At the top of the terminal, the command line shows welcome a message to 
+	   - At the top of the terminal, the command line shows welcome a message to 
               the player shows the game type: Rock paper scissors, it tells the user 
           - what type of game he is playing. Also, player name has seen in the 
                command line, making it easier to know who is playing against the computer.
@@ -35,21 +35,21 @@ The winner is
   
 ![name_gametype_terminal](https://user-images.githubusercontent.com/116649197/226162485-3ee14007-c36c-43a1-90f6-69bc44fd4b56.png)
       
-  ## Input validation and error checking 
-     - you cannot enter input outside number
-     - you cannot provide number outside limit range				
-     - you cannot enter negative numbers, only postive integer
+  - Input validation and error checking 
+    - you cannot enter input outside number
+    - you cannot provide number outside limit range				
+    - you cannot enter negative numbers, only postive integer
 
 ![input_validation_my Git pod terminal](https://user-images.githubusercontent.com/116649197/226163350-26a53051-29de-43d7-8758-8c97255c45eb.png)
 ![validation_terminal](https://user-images.githubusercontent.com/116649197/226162983-406debf5-4fa8-4eec-8bd1-1a66609e9e6d.png)
          
-  #### play again
-      - user continue playing the game must enter the 'y' letter either 
+  - play again
+    - user continue playing the game must enter the 'y' letter either 
         lower or upper case, user input outside this letter is not accepted.
 
 ![play_again](https://user-images.githubusercontent.com/116649197/226163018-bf87cefb-41ef-44f4-9908-4de08a4b7d43.png)
           
- #### exit game
+  - exit game
     - user wanted stop playing the game must enter 'n' letter in 
      either case, user input outside this letter is not accepted.
 
@@ -70,13 +70,13 @@ The winner is
    and display method to add new game to the player and return result.
 
 ## Testing
-   - I have mannually test this project by doing the following
+   - I have mannually test this project by doing the following:-
      - below generate tested values screen shot  from my local and code institute Heroku terminal
       presented:-
-      - by supplied invalid inputs:- strings when number is expected,
-       negative number when positve integer expected, outside defined limit.
-      - passed the code through a PEP8 linter and confirmed there are no
-        problem.			
+       - by supplied invalid inputs:- strings when number is expected,
+         negative number when positve integer expected, outside defined limit.
+       - passed the code through a PEP8 linter and confirmed there are no
+         problem.			
 
 
 ![continued_validation_Heroku terminal](https://user-images.githubusercontent.com/116649197/226162836-bf010ad7-eb82-4b64-a242-51ac81b326b4.png)
@@ -93,7 +93,7 @@ The winner is
       - when I tested the input validator to quit game, i was getting it has problem to close. 
         I fix this issue by adding exit().
   - Remaining bugs
-	  - no bugs 
+      - no bugs 
 
 ## Deployment
  - The site was deployed to GitHub pages and code institute Heroku terminal.
@@ -131,9 +131,9 @@ The winner is
 
 ## Credits
    - Code
-      - From youtube tutorial to implement the python if statement code line 86
+      - From youtube tutorial to implement python if statement code line 86
         to do the game running round, code run inside that fuction and exit() code line 105
-        to close the game
+        to close the game.
         https://www.youtube.com/watch?v=3ppJt87QPNg
       - MDN web docs
       - love sandwiches 
