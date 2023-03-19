@@ -25,9 +25,9 @@ The winner is
           - The player can't see what the computer intended to choose ,
        
        - The Game type and Player Name    
-	 - At the top of the terminal, the command line shows welcome a message to 
+	   At the top of the terminal, the command line shows welcome a message to 
                the player shows the game type: Rock paper scissors, 
-	 - It tells the user, what type of game he is playing. Also, player name has seen in the 
+	   It tells the user, what type of game he is playing. Also, player name has seen in the 
                command line, making it easier to know who is playing against the computer.
 	 - play against the computer
          - accept user input
@@ -138,9 +138,10 @@ The winner is
         https://www.youtube.com/watch?v=3ppJt87QPNg
       - MDN web docs
       - love sandwiches 
-      - From youtube tutorial has got some information how to design the game 
-       https://www.youtube.com/watch?v=XnoXEUQrIM8
-      - I received some help from my fellow student 
+      - From youtube tutorial has got some information how to design the game
+        https://www.youtube.com/watch?v=XnoXEUQrIM8
+      - I received some help from my fellow student
+      - Wikipedia for the detail of the rock paper scissors game  
    - content
 	   - The content is written by developer
 
