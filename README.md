@@ -25,7 +25,7 @@ The winner is
           - The player can't see what the computer intended to choose ,
        
        - The Game type and Player Name    
-	   - At the top of the terminal, the command line shows welcome a message to 
+	   	- At the top of the terminal, the command line shows welcome a message to 
               the player shows the game type: Rock paper scissors, it tells the user 
           - what type of game he is playing. Also, player name has seen in the 
                command line, making it easier to know who is playing against the computer.
@@ -44,7 +44,7 @@ The winner is
 ![validation_terminal](https://user-images.githubusercontent.com/116649197/226162983-406debf5-4fa8-4eec-8bd1-1a66609e9e6d.png)
          
   - play again
-    - user continue playing the game must enter the 'y' letter either 
+    - user wants to play the game again must enter the 'y' letter either 
         lower or upper case, user input outside this letter is not accepted.
 
 ![play_again](https://user-images.githubusercontent.com/116649197/226163018-bf87cefb-41ef-44f4-9908-4de08a4b7d43.png)
