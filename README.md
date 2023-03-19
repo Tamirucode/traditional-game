@@ -25,8 +25,8 @@ The winner is
           - The player can't see what the computer intended to choose ,
        
        - The Game type and Player Name    
-	 - At the top of the terminal, the command line shows welcome a message to 
-                     the player shows the game type: Rock paper scissors, it tells the user 
+	  - At the top of the terminal, the command line shows welcome a message to 
+               the player shows the game type: Rock paper scissors, it tells the user 
           - what type of game he is playing. Also, player name has seen in the 
                command line, making it easier to know who is playing against the computer.
 	  - play against the computer
@@ -36,9 +36,9 @@ The winner is
 ![name_gametype_terminal](https://user-images.githubusercontent.com/116649197/226162485-3ee14007-c36c-43a1-90f6-69bc44fd4b56.png)
       
   - Input validation and error checking 
-    - you cannot enter input outside number
-    - you cannot provide number outside limit range				
-    - you cannot enter negative numbers, only postive integer
+    - you can't enter input outside number
+    - you can't provide number outside limit range				
+    - you can't enter negative numbers, only postive integer
 
 ![input_validation_my Git pod terminal](https://user-images.githubusercontent.com/116649197/226163350-26a53051-29de-43d7-8758-8c97255c45eb.png)
 ![validation_terminal](https://user-images.githubusercontent.com/116649197/226162983-406debf5-4fa8-4eec-8bd1-1a66609e9e6d.png)
@@ -97,7 +97,7 @@ The winner is
 
 ## Deployment
  - The site was deployed to GitHub pages and code institute Heroku terminal.
-   -steps for deployment:-   
+   - steps for deployment   
 1. navigate Heroku  dashboard page  then click setting tab
 2. In my case no need config vars. then go to add buildpack by clicking its tab
 3. next select the first python,second noodjs and save changes.
