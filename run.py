@@ -82,9 +82,7 @@ class RockPaperScissors:
         self.result_check(player, computer)
 
  
- 
-
-# using python if statement to run the code inside it
+ # using python if statement to run the code inside it
 if __name__ == "__main__":
     play_game = RockPaperScissors()
     # the while loop is created the running round game

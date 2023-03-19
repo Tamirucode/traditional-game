@@ -1,31 +1,23 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## h2  overview 
+ 
+Rock Paper Scissors game is a python terminal game running in the code institute mock terminal Heroku. The terminal-based game hopes to show how the python concept works in-game applications.  
+It will be targeted toward adults and children, to have fun 
+with. It will allow truly fair random play between two people.
 
-Welcome Tamirucode,
+## h2  How to play
+Rock Paper Scissors game is a hand game, usually played between two player.You can read more about.Wikipedia 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+In this game architecture, the game is  between'x'player and the computer. First, the player enter their name. then the player enter only one number choice with corresponding list options if wanted play rock choice must be 0, similarly paper choice must be 1 and finaly wanted to play scissors choice must be 2. The computer randomly will chosen one of the three integers.
+The winner is 
+		- if 'x' player decides to play rock will beat the computer choice scissors, but 'x' player will lose when the computer choice paper.
+		if 'x' player decides to play paper will beat the computer choice rock, but 'x' player will lose when the computer choice scissors.
+		if 'x' player decides to play scissors will beat the computer choice paper, but 'x' player will lose when the computer choice rock.
+		if both players choose the same shape(my context the same numbers) the game is tied,so no one 
+        will wins. They will  play again. 
+ ## h2  Features 
 
-## Reminders
+		Existing features
+	
+	         ** The Game type and Player Name 
+			At the top of the terminal, the command line interface show welcome message to the player shows the game type: Rock paper scissors, it tells the user what type of game is playing. Also player name has seen in the command line , it easier to know who is playing the with the computer.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
