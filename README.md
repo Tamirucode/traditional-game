@@ -25,8 +25,8 @@ The winner is
           - The player can't see what the computer intended to choose ,
        
        - The Game type and Player Name    
-	   	- At the top of the terminal, the command line shows welcome a message to 
-              the player shows the game type: Rock paper scissors, it tells the user 
+	 - At the top of the terminal, the command line shows welcome a message to 
+                     the player shows the game type: Rock paper scissors, it tells the user 
           - what type of game he is playing. Also, player name has seen in the 
                command line, making it easier to know who is playing against the computer.
 	  - play against the computer
@@ -97,6 +97,7 @@ The winner is
 
 ## Deployment
  - The site was deployed to GitHub pages and code institute Heroku terminal.
+   -steps for deployment:-   
 1. navigate Heroku  dashboard page  then click setting tab
 2. In my case no need config vars. then go to add buildpack by clicking its tab
 3. next select the first python,second noodjs and save changes.
