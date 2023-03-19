@@ -25,13 +25,13 @@ The winner is
           - The player can't see what the computer intended to choose ,
        
        - The Game type and Player Name    
-	  - At the top of the terminal, the command line shows welcome a message to 
-               the player shows the game type: Rock paper scissors, it tells the user 
-          - what type of game he is playing. Also, player name has seen in the 
+	 - At the top of the terminal, the command line shows welcome a message to 
+               the player shows the game type: Rock paper scissors, 
+	 - It tells the user, what type of game he is playing. Also, player name has seen in the 
                command line, making it easier to know who is playing against the computer.
-	  - play against the computer
-          - accept user input
-	  - shows who wins between the players
+	 - play against the computer
+         - accept user input
+	 - shows who wins between the players
   
 ![name_gametype_terminal](https://user-images.githubusercontent.com/116649197/226162485-3ee14007-c36c-43a1-90f6-69bc44fd4b56.png)
       
