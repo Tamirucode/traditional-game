@@ -54,4 +54,38 @@ The winner is
 - classes (data model) store, the number of wins, losses, and ties, the player against the computer.
 - The class also methods to help play the game, such as random_choice method to add alternatives to computer side and print method to add new game to the player and return result.
 
+## Testing
+			
+	
+## Validator Testing
+  - PEP8			
+	  - No errors were returned from PEP8online.com
+## Bugs
+  - Solved bugs
+      - when I tested the input validator user enter'y' letter to continue  play the game , i was getting it accepts any input . I fix this by adding try statemenets.
+  - Remaining bugs
+	  - no bugs 
+
+## Deploymet
+ - The site was deployed to GitHub pages and code institute Heroku terminal.
+1. navigate Heroku  dashboard page  then click setting tab
+2. In my case no need config vars. then go to add buildpack by clicking its tab
+3. next select the first python,second noodjs and save changes.
+4. After  that go Heroku dashboard page  then click deploymnet tab
+5. just click Github then connect and confirm connect Github
+6. Type in the blank box my repository,traditional-game and click search
+7. click connect buttton to connect Heroku app
+8. scroll down the page click deploy branch and the app being built
+9. Finally,we see deployement the app successful message and
+10. click the view button to take a look
+- The live link can be found here:- [traditional-game](https://traditional-play.herokuapp.com/)
+
+## Technology Used
+ 	python
+Frameworks, Library and Program
+1. python module
+	import random
+2. Git
+	used Git terminal to commit to Git and push to Git hub
+3.GitHub
 
