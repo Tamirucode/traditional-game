@@ -1,10 +1,10 @@
-## h2  overview 
+##   overview 
  
 Rock Paper Scissors game is a python terminal game running in the code institute mock terminal Heroku. The terminal-based game hopes to show how the python concept works in-game applications.  
 It will be targeted toward adults and children, to have fun 
 with. It will allow truly fair random play between two people.
 
-## h2  How to play
+##  How to play
 Rock Paper Scissors game is a hand game, usually played between two player.You can read more about.Wikipedia 
 
 In this game architecture, the game is  between'x'player and the computer. First, the player enter their name. then the player enter only one number choice with corresponding list options if wanted play rock choice must be 0, similarly paper choice must be 1 and finaly wanted to play scissors choice must be 2. The computer randomly will chosen one of the three integers.
@@ -14,7 +14,7 @@ The winner is
 		if 'x' player decides to play scissors will beat the computer choice paper, but 'x' player will lose when the computer choice rock.
 		if both players choose the same shape(my context the same numbers) the game is tied,so no one 
         will wins. They will  play again. 
- ## h2  Features 
+ ##   Features 
 
 		Existing features
 	
