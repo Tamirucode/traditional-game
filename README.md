@@ -80,6 +80,13 @@ The winner is
 10. click the view button to take a look
 - The live link can be found here:- [traditional-game](https://traditional-play.herokuapp.com/)
 
+## cloning a repository
+ 1. navigate the desktop version Github Dashboard 
+    open file menu, click clone Repository
+ 2. then click the location of the repository, 
+ 3. From the list of repository, click traditional-game
+ 4. select local directory and file path
+ 5. finaly, click to clone traditional-game.
 ## Technology Used
  	python
 Frameworks, Library and Program
